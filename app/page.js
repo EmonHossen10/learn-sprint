@@ -2,10 +2,10 @@
 
 export default function Home() {
   return (
-    <main >
-     <h2>hello world</h2>
-     <h2>This is emon branch</h2>
-     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae, aliquam?</p>
+    <main>
+      <h2 className="text-4xl text-center py-10 text-sky-500 ">This is Home page</h2>
+      <h2 className="text-4xl text-center  text-sky-500 ">Here another content is commingggggg......</h2>
+      
     </main>
   );
 }
