@@ -16,11 +16,10 @@ const Banner = () => {
                     alt="banner"
                 />
             </div>
-            <div>
-                <h2>animation</h2>
+            <div style={{width:"30%"}}>
                 <Lottie animationData={lottieProgrammar} />
             </div>
-        </div>
+      </div>
     );
 };
 
