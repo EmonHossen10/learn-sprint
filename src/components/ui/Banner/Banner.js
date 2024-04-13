@@ -7,12 +7,12 @@ import "./nextBanner.css";
 
 const Banner = () => {
   return (
-    <div className="nextBanner opacity-30">
+    <div className="nextBanner bg-opacity-10">
       <div className="grid grid-cols-2">
         <div>
-          <Image src={bannerImg} width={200} alt="banner" />
+          <Image src={bannerImg} width={600} alt="banner" />
         </div>
-        <div style={{ width: "50%" }}>
+        <div style={{ width: "30%" }}>
           <Lottie animationData={lottieProgrammar} />
         </div>
       </div>
