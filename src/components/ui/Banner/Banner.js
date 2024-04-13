@@ -9,7 +9,7 @@ const Banner = () => {
   return (
     <div className="nextBanner bg-opacity-10">
       <div className="flex">
-        <div>
+        <div className="flex">
           <Image src={bannerImg} width={600} alt="banner" />
         </div>
         <div style={{ width: "30%" }}>
