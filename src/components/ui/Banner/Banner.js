@@ -3,6 +3,7 @@ import bannerImg from "../../../../public/assets/banner.png"
 import Image from "next/image";
 import lottieProgrammar from "../../../../public/programmer.json"
 import Lottie from "lottie-react"
+import "./nextBanner.css"
 
 
 const Banner = () => {
@@ -15,7 +16,7 @@ const Banner = () => {
                     alt="banner"
                 />
             </div>
-            <div style={{width:"20%"}}>
+            <div style={{width:"50%"}}>
                 <Lottie animationData={lottieProgrammar} />
             </div>
         </div>
