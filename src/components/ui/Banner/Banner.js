@@ -15,7 +15,7 @@ const Banner = () => {
                     alt="banner"
                 />
             </div>
-            <div style={{width:"30%"}}>
+            <div style={{width:"20%"}}>
                 <Lottie animationData={lottieProgrammar} />
             </div>
       </div>
