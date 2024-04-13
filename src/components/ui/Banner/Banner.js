@@ -7,8 +7,7 @@ import Lottie from "lottie-react"
 
 const Banner = () => {
     return (
-        <div>
-            {/* <h1>This is banner</h1> */}
+        <div className="md:flex justify-center items-center py-8 px-16">
             <div>
                 <Image 
                     src={bannerImg}
