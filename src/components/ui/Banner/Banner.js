@@ -1,7 +1,9 @@
+"use client"
 import bannerImg from "../../../../public/assets/banner.png"
 import Image from "next/image";
 import lottieProgrammar from "../../../../public/programmer.json"
 import Lottie from "lottie-react"
+
 
 const Banner = () => {
     return (
