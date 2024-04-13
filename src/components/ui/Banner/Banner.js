@@ -1,5 +1,7 @@
 import bannerImg from "../../../../public/assets/banner.png"
 import Image from "next/image";
+import lottieProgrammar from "../../../../public/programmer.json"
+import lottie from "lottie-react"
 
 const Banner = () => {
     return (
@@ -14,6 +16,7 @@ const Banner = () => {
             </div>
             <div>
                 <h2>animation</h2>
+                <lottie animationData={lottieProgrammar} />
             </div>
         </div>
     );
