@@ -7,7 +7,7 @@ import Lottie from "lottie-react"
 
 const Banner = () => {
     return (
-        <div className="md:flex justify-center items-center py-8 px-5">
+        <div className="h-screen md:flex justify-center items-center">
             <div>
                 <Image 
                     src={bannerImg}
@@ -18,7 +18,7 @@ const Banner = () => {
             <div style={{width:"20%"}}>
                 <Lottie animationData={lottieProgrammar} />
             </div>
-      </div>
+        </div>
     );
 };
 
