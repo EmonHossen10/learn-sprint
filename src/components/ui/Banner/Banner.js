@@ -8,7 +8,7 @@ import "./nextBanner.css";
 const Banner = () => {
   return (
     <div className="nextBanner bg-opacity-10">
-      <div className="grid grid-cols-2">
+      <div className="flex">
         <div>
           <Image src={bannerImg} width={600} alt="banner" />
         </div>
