@@ -8,7 +8,7 @@ import "./nextBanner.css";
 const Banner = () => {
   return (
     <div className="nextBanner">
-      <div className="md:flex justify-center items-center">
+      <div className="grid grid-cols-2">
         <div>
           <Image src={bannerImg} width={500} alt="banner" />
         </div>
