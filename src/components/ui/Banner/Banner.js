@@ -7,12 +7,12 @@ import "./nextBanner.css";
 
 const Banner = () => {
   return (
-    <div className="nextBanner bg-opacity-10">
-      <div className="flex">
-        <div className="flex">
-          <Image src={bannerImg} width={600} alt="banner" />
+    <div className="flex justify-center items-center">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+        <div>
+          <Image src={bannerImg} width={500} alt="banner" />
         </div>
-        <div style={{ width: "30%" }}>
+        <div style={{ width: "40%" }}>
           <Lottie animationData={lottieProgrammar} />
         </div>
       </div>
