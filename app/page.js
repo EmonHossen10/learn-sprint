@@ -1,3 +1,6 @@
+import Companies from "./companies";
+import FreeNotes from "./freeNote";
+
 export default function Home() {
   return (
     <main>
@@ -7,6 +10,10 @@ export default function Home() {
       <h2 className="text-4xl text-center  text-sky-500 ">
         Here another content is commingggggg......
       </h2>
+      <div className="w-11/12 mx-auto ">
+      <Companies />
+      <FreeNotes />
+      </div>
     </main>
   );
 }
